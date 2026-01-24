@@ -2,7 +2,7 @@ package com.portifolio.prod.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@ConfigurationProperties
+@ConfigurationProperties(prefix = "app")
 public class JwtProperties {
     
     private Jwt jwt;
