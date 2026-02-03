@@ -26,8 +26,9 @@ public class VisitReportScheduler {
     @Value("${portfolio.notify.email}")
     private String notifyMail;
 
-    @Scheduled(cron = "0 0 23 * * *")
+    @Scheduled(cron = "0 0 16 * * *")
     public void sendDailyReport() {
+        System.err.println("Schedule disparou");
 
         LocalDate today = LocalDate.now();
 
