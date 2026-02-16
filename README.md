@@ -85,6 +85,8 @@ docker compose build
 docker compose run
 ```
 
+---
+
 ## Banco de Dados
 
 PostgreSQL utilizado como banco principal.
@@ -99,6 +101,8 @@ DB_USER
 DB_PASSWORD
 ```
 
+---
+
 ### Variáveis de Ambiente
 
 ```
@@ -110,6 +114,7 @@ MAIL_USERNAME=
 MAIL_PASSWORD=
 ```
 
+---
 
 ## 📬 Relatório Automático
 
@@ -121,9 +126,13 @@ Informações agregadas
 
 Data do relatório
 
+---
+
 ## 🌍 Deploy
 
 Aplicação publicada em ambiente de produção utilizando Render.
+
+---
 
 ## 🎯 Objetivo do Projeto
 
@@ -141,6 +150,8 @@ Publicar aplicação em produção
 
 Trabalhar containerização com Docker
 
+---
+
 ## 📌 Próximos Passos
 
 Implementar logs estruturados
@@ -150,6 +161,8 @@ Adicionar documentação com Swagger
 Melhorar observabilidade
 
 Implementar testes automatizados
+
+---
 
 ## 📎 Link do Projeto
 
