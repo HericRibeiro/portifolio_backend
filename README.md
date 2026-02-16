@@ -166,6 +166,6 @@ Implementar testes automatizados
 
 ## 📎 Link do Projeto
 
-(https://heric-willian.onrender.com/)
+https://heric-willian.onrender.com/
 
 Desenvolvido por Heric Willian
