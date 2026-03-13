@@ -15,10 +15,10 @@ public class CorsConfigurationsSource {
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
 
-        config.setAllowedOriginPatterns(List.of("http://localhost:5173"));
+        config.setAllowedOriginPatterns(List.of("http://localhost:5173", "https://heric-willian.onrender.com"));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("*"));
-        config.setExposedHeaders((List.of("Authorizaton")));
+        config.setExposedHeaders((List.of("Authorization")));
         config.setAllowCredentials(true);
 
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
